@@ -1,14 +1,6 @@
-test: hello application.yml
-yx:
-  name: yx
-  age: 22
-  sex: 男
+server:
+  port: 8887
 
 spring:
-  cloud:
-    config:
-      uri: http://localhost:8888/
-      label: master
-      profile: dev
   application:
-    name: config-client
+    name: git-config-server 
