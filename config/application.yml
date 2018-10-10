@@ -1,7 +1,0 @@
-hello: welcome to git application.yml
-server:
-  port: 8887
-
-spring:
-  application:
-    name: git-config-server 
