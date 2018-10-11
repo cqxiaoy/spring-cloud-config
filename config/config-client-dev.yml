@@ -1,2 +1,5 @@
 same_param: localtion is config-client-dev.yml
 config_client_yml_param: welcome to config-client-dev.yml
+
+server:
+  port: 8889

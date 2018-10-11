@@ -1,2 +1,9 @@
 same_param: localtion is common.yml
-common_param: hello common.yml 
+common_param: hello common.yml
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.11.160:8761/eureka/
